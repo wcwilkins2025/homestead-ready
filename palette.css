@@ -17,7 +17,7 @@
   --hr-on-clay:#ffffff;   /* text on Clay buttons */
   --hr-creek:#2f6573;     /* Creek — info, secondary links */
   --hr-good:#3b6e44;      /* status: good */
-  --hr-caution:#8a6208;   /* status: caution (Ochre) */
+  --hr-caution:#7a5606;   /* status: caution (Ochre, darkened for 4.5:1 on its tint) */
   --hr-warn:#9a3b1f;      /* status: warning (Brick) */
 }
 @media (prefers-color-scheme: dark){
