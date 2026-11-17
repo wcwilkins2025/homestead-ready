@@ -1,0 +1,41 @@
+/*
+  Homestead Ready palette — colors from nature.
+  The master copy for every Homestead Ready site. Copy these values; don't invent new ones.
+  Light = daylight field. Dark = night woods. All text pairs pass WCAG AA (4.5:1) on bg and surface.
+*/
+:root{
+  --hr-bg:#f5efe2;        /* Wheat — page background */
+  --hr-surface:#fffaf0;   /* Linen — cards, panels */
+  --hr-ink:#2b2a24;       /* Bark — body text */
+  --hr-muted:#5d5848;     /* Driftwood — supporting text */
+  --hr-rule:#e0d5bd;      /* Dry grass — borders, dividers */
+  --hr-forest:#2f4a32;    /* Forest — headings, dark bands */
+  --hr-moss:#4f6a3a;      /* Moss — secondary green, bars */
+  --hr-soil:#6e4528;      /* Soil — small labels, tags */
+  --hr-clay:#9a4f1f;      /* Clay — buttons, links */
+  --hr-clay-hover:#7d3f17;
+  --hr-on-clay:#ffffff;   /* text on Clay buttons */
+  --hr-creek:#2f6573;     /* Creek — info, secondary links */
+  --hr-good:#3b6e44;      /* status: good */
+  --hr-caution:#8a6208;   /* status: caution (Ochre) */
+  --hr-warn:#9a3b1f;      /* status: warning (Brick) */
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --hr-bg:#1a1d16;      /* Night soil */
+    --hr-surface:#252a1f; /* Bark shade */
+    --hr-ink:#ece5d4;     /* Birch */
+    --hr-muted:#b5ad99;   /* Stone */
+    --hr-rule:#3a3f31;
+    --hr-forest:#cfdcb8;  /* Sage */
+    --hr-moss:#9fbf5e;    /* Leaf */
+    --hr-soil:#e0b48c;
+    --hr-clay:#d9884c;    /* Ember */
+    --hr-clay-hover:#e9a068;
+    --hr-on-clay:#1a1d16;
+    --hr-creek:#8fbac4;
+    --hr-good:#8cc79a;
+    --hr-caution:#e0b450;
+    --hr-warn:#e58a6a;
+  }
+}
